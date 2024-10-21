@@ -21,7 +21,7 @@
     }
     // formData.append('file', element.files);
     try {
-      const response = await axios.post('http://172.22.0.95:12300/uploadpdf/', formData, {
+      const response = await axios.post('http://172.19.3.206:12307/uploadpdf/', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         },
